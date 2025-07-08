@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dobrodošli u istraživanje</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9fb;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      padding: 2em;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    h2 {
+      margin-bottom: 1em;
+    }
+
+    button {
+      margin-top: 2em;
+      padding: 0.75em 1.5em;
+      font-size: 1em;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Dobrodošli u istraživanje</h2>
+    <p>
+      U ekonomskoj igri koja je pred Vama, upareni ste s drugom osobom.
+      Jedna osoba ima ulogu <strong>diktatora</strong> i prva šalje određeni broj poena primatelju.
+      Nakon što <strong>primatelj</strong> dobije informaciju o dodijeljenim poenima, ima priliku poslati diktatoru nazad onoliko poena koliko želi.
+    </p>
+    <p><strong>U ovoj igri, Vi ste u ulozi PRIMATELJA.</strong></p>
+    <p>Drugi učesnik (diktator) Vam je poslao <strong>10 poena</strong>.</p>
+    <p>Kliknite “Nastavi” kako biste izabrali broj poena koji želite poslati nazad.</p>
+
+    <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScHGd4cDza2rG6dHL0_RO11cPCEhi_ilb8hIMB97KHP-BWskA/viewform?usp=header'">
+      Nastavi
+    </button>
+  </div>
+</body>
+</html>
